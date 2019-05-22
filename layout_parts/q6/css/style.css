@@ -2,4 +2,105 @@
 
 /* 回答はここに書いてね */
 
+.text-box{
+  margin: 0 auto;
+  width: 90px;
+  padding:10px 0;
+  background-color: #e6f2ff;
+  text-align: center;
+}
+
+
+
+.margin-box{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #e6f2ff;
+  width: 90px;
+  padding: 10px 0;
+}
+
+/* .table-box{
+  display: table;
+  width: 100%;
+  height: 100%;
+} */
+
+.popo{
+
+}
+
+.table-box{
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.table-text{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-text p{
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+}
+/*widthとheightを100%にするのがみそ？ですね。
+手順としてはまず、親要素にtableをつけて子要素にtable-cellをつけることで
+セルとして扱えるようにする。あとはtext-alignとvertical-alignで！
+新しいタグを作らなくてもできるって書いてあったけどどうしてもできなかったので後で質問。*/
+
+
+.flex-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* コンテンツの親要素にflexを使う。
+justify-contentは横合わせ、align-itemsは縦合わせ*/
+
+.flex-text{
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* blockとinline-blockは復習しておく。 */
+
+.fixed-box{
+  position: relative;
+}
+
+
+.fixed-text{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+
+.variable-box{
+  position: relative;
+}
+
+.variable-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+/* absolute + top: 50% + left: 50% + transform: translate(-50%,-50%)で
+親のど真ん中に配置できる
+top,leftだけだと右下にズレる。要素の角が基準だから。
+translateで要素の半分ずつの寸法を戻してやれば中心がcenterになる。 */
+
+
 /* 回答はここに書いてね */
