@@ -2,4 +2,54 @@
 
 /* 回答はここに書いてね */
 
+.contents-wrapper{
+  width: 900px;
+  background-color: #eff3f4;
+  margin:0 auto;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 20px;
+}
+
+.baloons{
+  float: left;
+  /* padding-right: 20px;
+  padding-bottom: 10px; */
+  /* padding-top: 20px; */
+}
+
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.lights {
+  float: right;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.baloons {
+  padding-right: 20px;
+  padding-bottom: 10px
+}
+
+.text1 {
+  text-align: justify;
+}
+
+.text2 {
+  text-align: justify;
+}
+
+/*今までのテキストのビミョーな隙間は均等割付で解決！！*/
+
 /* 回答はここに書いてね */
