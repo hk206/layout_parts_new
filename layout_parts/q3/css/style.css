@@ -2,4 +2,42 @@
 
 /* 回答はここに書いてね */
 
+table{
+  width: 100%;
+  text-align: center;
+  table-layout: fixed;
+  /* defaultではtable-layoutはautoになっていて中の文字数によって変わるがfixedにすると一部の幅を指定して残りを均等にしたり
+  指定が無ければすべてが均等幅になる */
+}
+
+td, th{
+  padding: 10px;
+  /* width: 16.66666666667%; */
+  border: 1px solid #dedede;
+}
+
+td:first-child{
+  background-color: #2244aa;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.types {
+  background-color: #2244aa;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.diet2, .diet4{
+  background-color: #ecf1f2;
+}
+
+.total {
+  border-top: 2px dashed #000;
+}
+
+/*border-collapse: collapse;はおそらくreset.cssに書かれていて、
+  普通borderを書くと線の間に隙間が生じる。それを一重にするのがこれ。*/
 /* 回答はここに書いてね */
