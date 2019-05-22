@@ -2,4 +2,119 @@
 
 /* 回答はここに書いてね */
 
+.float-wrapper{
+  font-size: 16px;
+}
+
+.float-box1{
+  float: left;
+  width: 225px;
+  box-sizing: border-box;
+}
+
+.float-box2{
+  float: left;
+  width: 225px;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.table-wrapper{
+  display: table;
+  table-layout: fixed;
+}
+
+.table-box1{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.table-box2{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.table-text1{
+  width:225px;
+  box-sizing: border-box;
+  margin-right: 25px;
+}
+
+.table-text2{
+  width:225px;
+  box-sizing: border-box;
+  margin-left: 25px;
+}
+
+.inline-box{
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.inline-text2{
+  margin-left: 50px;
+}
+
+.inline-text1,
+.inline-text2{
+  display: inline-block;
+  vertical-align: middle;
+  width: 225px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+.flex-box1{
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-text1,
+.flex-text2{
+  width:225px;
+  box-sizing: border-box;
+}
+
+.flex-text1{
+  margin-top: auto;
+}
+
+.margin-wrapper{
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.margin-text2{
+  margin-left: 50px;
+}
+
+.margin-box1,
+.margin-box2{
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.margin-box1{
+  width: 300px;
+}
+
+.margin-box2{
+  width: 100%;
+  margin-left: -300px;
+}
+
+.margin-text2{
+    margin-left: 350px;
+}
+
+
 /* 回答はここに書いてね */
