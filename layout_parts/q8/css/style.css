@@ -2,4 +2,463 @@
 
 /* 回答はここに書いてね */
 
+.btn-small,
+.btn-middle,
+.btn-large{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.btn-small:hover,
+.btn-middle:hover,
+.btn-large:hover{
+  cursor: pointer;
+}
+
+.btn-small{
+  font-size: 16px;
+  padding: 0 15px;
+  line-height: 26px;
+  border-radius: 3px;
+}
+
+.btn-middle{
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 0 20px;
+  line-height: 32px;
+}
+
+.btn-large{
+  font-size: 24px;
+  border-radius: 7px;
+  padding: 0 25px;
+  line-height: 38px;
+}
+
+.btn-common{
+  background-color: #00bcd4;
+  color: #fff;
+}
+
+.btn-error{
+  background-color: #ff4081;
+  color: #fff;
+}
+
+.btn-disabled{
+  background-color: #e5e5e5;
+  color: #fff;
+}
+
+.btn-shadow{
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .12)
+}
+
+
+
+.form-wrapper{
+  background-color: #ECF1F2;
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.entry-area{
+  margin-bottom: 20px;
+}
+
+.title-text{
+  position: relative;
+  padding-right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+  background-color: #ECF1F2;
+}
+
+.title-area{
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.title-area::before{
+  position: absolute;
+  top: 50%;
+  background-color: #ccc;
+  width: 100%;
+  content: "";
+  left: 0;
+  height: 1px;
+  
+}
+
+li{
+  margin-top: 20px;
+}
+
+li:first-child{
+  margin-top: 0;
+}
+
+.name-text{
+  float: left;
+  width: 100px;
+  text-align: right;
+  line-height: 25px;
+}
+
+.name-input{
+  float: right;
+  width: 180px;
+  margin-left:20px;
+  box-sizing: border-box;
+}
+
+.name-area{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  border-width: 0;
+}
+
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.gender-text{
+  float: left;
+  width: 100px;
+  text-align: right;
+  line-height: 25px;
+}
+
+.gender-select{
+  float: right;
+  width: 180px;
+  margin-left:20px;
+  box-sizing: border-box;
+  /* margin: 10px; */
+}
+
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.male{
+  float: left;
+  margin-right: 4px;
+}
+
+.male-text{
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+.male-radio{
+  display: none;
+}
+
+.male-text::before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+.male-radio:checked + .male-text::after{
+  position: absolute;
+    top: 50%;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    margin-top: -4px;
+    background-color: #00BCD4;
+    border-radius: 50%;
+    content: '';
+}
+
+.female{
+  float: left;
+}
+
+.female-text{
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+.female-radio{
+  display: none;
+}
+
+.female-text::before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+.female-radio:checked + .female-text::after{
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
+}
+
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.origin-text{
+  float: left;
+  width: 100px;
+  text-align: right;
+  line-height: 25px;
+}
+
+.origin-select{
+  float: right;
+  width: 180px;
+  position: relative;
+}
+
+.origin-select:after {
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #E5E5E5;
+  border-bottom: 2px solid #E5E5E5;
+  transform: rotate(45deg);
+  content: "";
+  pointer-events: none;
+}
+
+.origin-area{
+  width: 100%;
+  padding:5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  border-width: 0;
+  text-align: left;
+  -webkit-appearance: none;
+}
+
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.email-text{
+  float: left;
+  width: 100px;
+  text-align: right;
+  line-height: 25px;
+}
+
+.email-input{
+  float: right;
+  width: 180px;
+  margin-left:20px;
+  box-sizing: border-box;
+}
+
+.email-area{
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  border-width: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.tel-text{
+  float: left;
+  width: 100px;
+  text-align: right;
+  line-height: 25px;
+}
+
+.tel-input{
+  float: right;
+  width: 180px;
+  margin-left:20px;
+  box-sizing: border-box;
+}
+
+.tel-area{
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  border-width: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.entry-info-wrapper{
+  float: left;
+  width: 300px;
+}
+
+.btn-submit{
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00BCD4;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+  border: none;
+}
+
+.message-input{
+  /* float: right; */
+}
+
+.message-area{
+  float: right;
+  box-sizing: border-box;
+  width: 380px;
+  height: 203px;
+  padding: 10px;
+  border: none;
+  resize: none;
+  font-size: 12px;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.confirm-age{
+  float: right;
+}
+
+.confirm-check{
+  display: none;
+}
+
+.confirm-text{
+  position: relative;
+  display: inline-block;
+  padding-left: 24px;
+}
+
+.confirm-text::before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -9px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: '';
+}
+
+.confirm-check:checked + .confirm-text::after{
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  margin-top: -14px;
+  width: 8px;
+  height: 16px;
+  border-right: 3px solid #00BCD4;
+  border-bottom: 3px solid #00BCD4;
+  transform: rotate(45deg);
+  content: '';
+}
+
+
+.btn-submit{
+  float: right;
+}
+
+.btn-submit:active{
+  background-color: #FFF;
+  color: #00BCD4;
+  outline: none;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+li{
+  width: 300px;
+}
+
+.important{
+  color: red;
+}
+
+input:focus {
+  box-shadow: 0 0 7px #00BCD4;
+  outline: none;
+}
 /* 回答はここに書いてね */
+
+

@@ -6,13 +6,13 @@
   font-size: 16px;
 }
 
-.float-box1{
+.float-box-keft{
   float: left;
   width: 225px;
   box-sizing: border-box;
 }
 
-.float-box2{
+.float-box-right{
   float: left;
   width: 225px;
   margin-left: 50px;
@@ -30,23 +30,23 @@
   table-layout: fixed;
 }
 
-.table-box1{
+.table-box-left{
   display: table-cell;
   vertical-align: middle;
 }
 
-.table-box2{
+.table-box-right{
   display: table-cell;
   vertical-align: middle;
 }
 
-.table-text1{
+.table-text-left{
   width:225px;
   box-sizing: border-box;
   margin-right: 25px;
 }
 
-.table-text2{
+.table-text-right{
   width:225px;
   box-sizing: border-box;
   margin-left: 25px;
@@ -57,12 +57,11 @@
   font-size: 0;
 }
 
-.inline-text2{
+.inline-text:last-child {
   margin-left: 50px;
 }
 
-.inline-text1,
-.inline-text2{
+.inline-text{
   display: inline-block;
   vertical-align: middle;
   width: 225px;
@@ -71,18 +70,17 @@
 }
 
 
-.flex-box1{
+.flex-box{
   display: flex;
   justify-content: space-around;
 }
 
-.flex-text1,
-.flex-text2{
+.flex-text {
   width:225px;
   box-sizing: border-box;
 }
 
-.flex-text1{
+.flex-text:first-child {
   margin-top: auto;
 }
 

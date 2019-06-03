@@ -8,101 +8,92 @@
   background-color: #ecf1f2;
   margin: 0 auto;
   position: relative;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.box-common {
+  width: 100px;
+  height:100px;
+  text-align: center;
+  line-height: 100px;
+  position: absolute;
 }
 
 .first{
-  width: 100px;
-  height:100px;
   background-color: #ffefd3;
-  position: absolute;
-  text-align: center;
-  line-height: 100px;
   left:200px;
   top:40px;
 }
 
 .second{
-  width: 100px;
-  height:100px;
   background-color: #7084de;
-  position: absolute;
-  text-align: center;
-  line-height: 100px;
   left:280px;
   top: 120px;
 }
 
 .third{
-  width: 100px;
-  height:100px;
   background-color: #d0ecea;
-  position: absolute;
-  text-align: center;
-  line-height: 100px;
   left:360px;
   top: 200px;
 }
 
 .fourth {
-  width: 100px;
-  height:100px;
   background-color: #8b7a5e;
-  position: absolute;
-  text-align: center;
-  line-height: 100px;
   left:280px;
   top: 280px;
   z-index: 1;
 }
 
 .fifth {
-  width: 100px;
-  height:100px;
   background-color: #9fd6d2;
-  position: absolute;
-  text-align: center;
-  line-height: 100px;
   left: 200px;
   top: 360px;
   z-index: 2;
 }
 
 .sixth {
-  width: 100px;
-  height:100px;
   background-color: #fffee4;
-  position: absolute;
-  text-align: center;
-  line-height: 100px;
   left: 120px;
   top: 280px;
   z-index: 3;
 }
 
 .seventh {
-  width: 100px;
-  height:100px;
   background-color: #deae70;
-  position: absolute;
-  text-align: center;
-  line-height: 100px;
   left: 40px;
   top: 200px;
   z-index: 4;
 }
 
 .eighth {
-  width: 100px;
-  height:100px;
   background-color: #de70cf;
-  position: absolute;
-  text-align: center;
-  line-height: 100px;
   left: 120px;
   top: 120px;
-  z-index: auto;
+  z-index: 5;
 }
 
+.eighth::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #ffefd3;
+  position: absolute;
+  left: 80px;
+  top: 0;
+}
+/* 小さい四角をかぶせてみた。
+eighthはすでにabsoluteだからかrelativeつかうとおかしくなる。
+このままでもeighthを基準に位置が決まっている。なんか気持ち悪い。 */
+
+.ninth {
+  background-color: #de70cf;
+  left: 0;
+  top: 0;
+  margin: 10px;
+  font-weight: bold;
+}
 
 
 

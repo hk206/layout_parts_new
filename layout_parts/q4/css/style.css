@@ -9,8 +9,7 @@
 3.固定は幅を設定する
 4. */
 
-.row1,
-.row2{
+.row {
   display: table;
   width: 100%;
   padding: 20px;
@@ -24,43 +23,41 @@
 /* border-boxつけといた。 row2とか文字数に左右されてvariable同氏の比率が均等じゃなくなるので
 対策としてtable-layout:fixedにした。指定したもの以外は均等幅になる。前のlessonで学習済み。*/
 
-.row1 *,
-.row2 *{
+.row *{
   display: table-cell;
 }
 
 /*各要素をcellのように扱いますよと*/
 
-.fixed1,
-.fixed2{
+.wd100{
   width: 100px;
 }
 
-.fixed3{
+.wd500{
   width: 500px;
 }
 
-.fixed1{
+.is-beige{
   background-color: #fdc8b8;
 }
 
-.variable1{
+.is-lightpink{
   background-color: #e0abd9;
 }
 
-.fixed2{
+.is-lightblue{
   background-color: #b6d8ed;
 }
 
-.variable2{
+.is-yellow{
   background-color: #e5d32e;
 }
 
-.variable3{
+.is-pink{
   background-color: #ec8f9a;
 }
 
-.fixed3{
+.is-green{
   background-color: #8fdcad;
 }
 /* 回答はここに書いてね */
