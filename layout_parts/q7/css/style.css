@@ -30,18 +30,12 @@
 .table-box{
   display: table-cell;
   vertical-align: middle;
+  padding-left: 50px;
 }
 
-.table-text-left{
-  width:225px;
-  box-sizing: border-box;
-  margin-right: 25px;
-}
 
-.table-text-right{
-  width:225px;
-  box-sizing: border-box;
-  margin-left: 25px;
+.table-wrapper .table-box:first-child {
+  padding-left: 0;
 }
 
 .inline-box{
