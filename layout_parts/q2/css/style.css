@@ -19,31 +19,23 @@
   /* padding-top: 20px; */
 }
 
-
-.clearfix::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
 .img-right {
   float: right;
   margin:0 0 10px 20px;
 }
 
-.clearfix::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
-
-.box-upper,
-.box-lower {
+.content-box {
   word-break: break-all; 
   /*一切の禁則処理を解除し、どの文字の間でも改行する*/
   /* word-wrap:break-word; */
   /* 望ましい折り返しの制御をしてくれるのはword-wrap:break-word;(overflow-wrap:break-word;) */
+}
+
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
 }
 
 

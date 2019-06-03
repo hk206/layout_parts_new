@@ -8,7 +8,7 @@
   width: 500px;
   margin: 0 auto;
   cursor: pointer;
-  /* transition: all .5s; */
+  transition: all .5s;
 }
 
 .anima-img{

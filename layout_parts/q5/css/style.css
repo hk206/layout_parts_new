@@ -80,6 +80,7 @@
   height: 20px;
   background-color: #ffefd3;
   position: absolute;
+  /* 親のposiがstaticでない限りはabsoluteで親要素が基準となる */
   left: 80px;
   top: 0;
 }
@@ -93,6 +94,7 @@ eighthはすでにabsoluteだからかrelativeつかうとおかしくなる。
   top: 0;
   margin: 10px;
   font-weight: bold;
+  position: fixed;
 }
 
 

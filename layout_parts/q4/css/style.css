@@ -9,21 +9,29 @@
 3.固定は幅を設定する
 4. */
 
+.contents-wrapper {
+  padding: 20px;
+}
+
 .row {
   display: table;
   width: 100%;
-  padding: 20px;
   text-align: center;
   vertical-align: middle;
   box-sizing: border-box;
   line-height: 56px;
   table-layout: fixed;
+  margin-bottom: 40px;
+}
+
+.row:last-child {
+  margin-bottom: 0;
 }
 
 /* border-boxつけといた。 row2とか文字数に左右されてvariable同氏の比率が均等じゃなくなるので
 対策としてtable-layout:fixedにした。指定したもの以外は均等幅になる。前のlessonで学習済み。*/
 
-.row *{
+.tcell {
   display: table-cell;
 }
 
