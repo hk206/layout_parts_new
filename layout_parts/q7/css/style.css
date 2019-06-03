@@ -75,18 +75,15 @@
   box-sizing: border-box;
 }
 
-.flex-text:first-child {
-  /* margin-top: auto; */
-}
+ /* .flex-text:first-child {
+  margin-top: auto;
+}  */
 
 .margin-wrapper{
   margin: 0 auto;
   font-size: 0;
 }
 
-.margin-text2{
-  margin-left: 50px;
-}
 
 .margin-box1,
 .margin-box2{
