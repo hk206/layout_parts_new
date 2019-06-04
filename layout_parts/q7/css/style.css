@@ -33,8 +33,9 @@
   padding-left: 50px;
 }
 
+/* table-cellにマージンは指定できない */
 
-.table-wrapper .table-box:first-child {
+.table-box:first-child {
   padding-left: 0;
 }
 
@@ -79,22 +80,24 @@
 }
 
 
-.margin-box1,
-.margin-box2{
+.margin-box{
   display: inline-block;
   vertical-align: middle;
   box-sizing: border-box;
   font-size: 16px;
 }
 
-.margin-box1{
+.margin-box:first-child{
   width: 300px;
 }
 
-.margin-box2{
+.margin-box:last-child{
   width: 100%;
   margin-left: -300px;
 }
+
+/* その親要素に対して、
+最初かどうか。だから上の階層に仕切られたものは指定が被る。 */
 
 .margin-text2{
     margin-left: 350px;
